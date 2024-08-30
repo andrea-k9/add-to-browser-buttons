@@ -1,0 +1,40 @@
+body {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.button {
+    font-size: 1em;
+    margin: 1em;
+    padding: 0 1em;
+    border-radius: .25em;
+    min-height: 3em;
+    width: 9em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: #0060df;
+}
+.button:hover {
+    background: #003eaa;
+}
+.button > img {
+    height: 2em;
+}
+#chrome_button {
+    width: 9.5em;
+    background: #01ae35;
+}
+#chrome_button:hover {
+    background: #0a7800;
+}
+#chrome_button > img {
+    height: 1.75em;
+    padding: .125em;
+}
